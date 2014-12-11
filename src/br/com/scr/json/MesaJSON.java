@@ -10,7 +10,7 @@ import org.json.JSONObject;
 import br.com.scr.vo.MesaVO;
 
 public class MesaJSON {
-
+/* teste*/
 	public List<MesaVO> ListaMesa(String json) {
 		List<MesaVO> lista = new ArrayList<MesaVO>();
 		try {
