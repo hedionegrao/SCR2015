@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="310dp" 
+    android:screenOrientation="portrait"   
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="110"
+        android:text="Servidor:" />
+
+    <EditText
+        android:id="@+id/edtServidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porta:" />
+
+    <EditText
+        android:id="@+id/edtPorta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnSalvarConfig
+            "
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnCancelarConfg"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:text="Cancelar" />
+
+    </FrameLayout>
+
+</LinearLayout>
